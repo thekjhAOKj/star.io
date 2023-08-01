@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.nav{
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 30px 10%;
+    position: relative;
+    align-items: center;
+}
+.bons{
+    display: flex;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    width: fit-content;
+    font-weight: 700;
+}
+nav ul li a:hover{
+    background-color: #555;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: 700;
+    width: fit-content;
+}
+.cont .btn{
+    position: relative;
+    left: 33%;
+    color: #ffffff;
+    border-color: beige;
+}
+.btn i{
+    margin-right: 10px;
+}
+.st{
+    margin-right: 50px;
+    border: none;
+}
+.bl{
+    background-color: #000000;
+    color: aliceblue;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.box{
+    margin: 1% auto;
+    background-color: #006241;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align-last: center;
+    color: aliceblue;
+}
+.second{
+    background-color: #eb81a5;
+}
+.third{
+    background-color: #8f8bf4;
+}
+.fourth{
+    background-color: #fc6446;
+}
+.box img{
+    width: 760px;
+    height: 600px;
+}
+.tex{
+    height: fit-content;
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    right: 100px;
+    letter-spacing: 1px;
+}
+.tex h1{
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 740;
+    margin: 20px;
+}
+.ju{
+    margin: 40px 0;
+    width: 600px;
+}
+.odd{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.odd .tex{
+    position: relative;
+    left: 30px;
+}
